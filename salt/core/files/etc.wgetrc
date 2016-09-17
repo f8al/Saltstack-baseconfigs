@@ -1,0 +1,20 @@
+##WGET config initialization file
+
+## Global settings (useful for setting up in /etc/wgetrc).
+## Think well before you change them, since they may reduce wget's
+## functionality, and make it behave contrary to the documentation:
+##
+quota = inf
+tries = 20
+reclevel = 5
+passive_ftp = on
+waitretry = 10
+robots = on
+wait = 1
+dirstruct = off
+recursive = off
+backup_converted = on
+#follow_ftp = off
+use_proxy = on
+http_proxy = http://proxy.corp.org.com:80
+https_proxy = https://proxy.corp.org.com:80

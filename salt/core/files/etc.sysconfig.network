@@ -1,0 +1,2 @@
+NETWORKING=yes
+HOSTNAME={{ grains['localhost'] if grains['localhost'].endswith('corp.org.com') else '%s.corp.org.com' % (grains['localhost']) }}
